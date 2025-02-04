@@ -34,6 +34,11 @@
     overflow: hidden;
 }
 
+.avatar img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 .avatar-inner {
     position: absolute;
     inset: 0;
@@ -61,9 +66,8 @@
     border: 3px solid transparent;
     border-radius: 50%;
     background: linear-gradient(45deg, #60a5fa, #a78bfa) border-box;
-    -webkit-mask:
-            linear-gradient(#fff 0 0) padding-box,
-            linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
 }
@@ -237,9 +241,8 @@
     border: 2px solid transparent;
     border-radius: 1.5rem;
     background: linear-gradient(45deg, #60a5fa, #a78bfa) border-box;
-    -webkit-mask:
-            linear-gradient(#fff 0 0) padding-box,
-            linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
     -webkit-mask-composite: destination-out;
     mask-composite: exclude;
     opacity: 0;
