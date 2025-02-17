@@ -35,7 +35,6 @@ class Profile_Card_Widget extends Widget_Base {
 		return [ 'extrawidgets' ];
 	}
 
-	// register controls
 	protected function register_controls() {
 
 		$this->start_controls_section(
